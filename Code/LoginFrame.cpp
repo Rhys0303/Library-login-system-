@@ -18,7 +18,7 @@ LoginFrame::LoginFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title
 	wxFont headerFont(wxFontInfo(15).Bold());
 	wxFont smallFont(wxFontInfo(12));
 
-
+		//登入按鈕
 	wxButton* loginButton = new wxButton(panel, wxID_ANY, "Login", wxPoint(150,295));
 	wxButton* registerButton = new wxButton(panel, wxID_ANY, "Register", wxPoint(250,295));
 		//註冊按鈕
@@ -29,12 +29,12 @@ LoginFrame::LoginFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title
 	wxStaticText* idText = new wxStaticText(panel, wxID_ANY, "User ID", wxPoint(120, 160), wxSize(80, -1));
 	wxStaticText* passwordText = new wxStaticText(panel, wxID_ANY, "Password", wxPoint(120, 220), wxSize(80, -1));
 
-	loginText->SetFont(headerFont);
+	loginText->SetFont(headerFont); //設定字體
 
-	idText->SetFont(smallFont);
-	passwordText->SetFont(smallFont);
-	userID->SetFont(smallFont);
-	password->SetFont(smallFont);
+	idText->SetFont(smallFont); //設定字體
+	passwordText->SetFont(smallFont); //設定字體
+	userID->SetFont(smallFont); //設定字體
+	password->SetFont(smallFont); //設定字體
 
 
 
