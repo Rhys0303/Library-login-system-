@@ -1,31 +1,16 @@
 #include "MainFrame.h"
+#include "LoginFrame.h"
 #include <wx/wx.h>
+#include <wx/listctrl.h>
+#include <fstream>
+#include <sstream>
 
-MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title) {
+MainFrame::MainFrame(const wxString& title, LoginFrame* loginFrame) : wxFrame(nullptr, wxID_ANY, title) {
+	ID = loginFrame->getID();
+	loginFrame->Destroy();
+
 	wxPanel* panel = new wxPanel(this);
-	//wxButton* button = new wxButton(panel, wxID_ANY, "Button", wxPoint(300, 250), wxSize(200, 100));
-	CreateStatusBar();
-	panel->Bind(wxEVT_KEY_DOWN, &MainFrame::onKeyEvent, this);
+	wxStaticText* libraryText = new wxStaticText(panel, wxID_ANY, "My Library", wxPoint(10,20), wxSize(120,-1));
 }
 
-void MainFrame::onMouseEvent(wxMouseEvent& evt) {
-	wxPoint mousePos = wxGetMousePosition();
-	mousePos = this->ScreenToClient(mousePos);
-	wxString message = wxString::Format("Mouse Event Detected! (x=%d y=%d)", mousePos.x, mousePos.y);
-	wxLogStatus(message);
-		;
-}
 
-void MainFrame::onKeyEvent(wxKeyEvent& evt) {
-	wxChar keyChar = evt.GetUnicodeKey();
-
-	if (keyChar == WXK_NONE) {
-		int keyCode = evt.GetKeyCode();
-		wxLogStatus("Key Event %d", keyCode);
-	}
-	else {
-		wxLogStatus("Key Event: %c", keyChar);
-	}
-
-	
-}

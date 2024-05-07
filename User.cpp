@@ -1,4 +1,6 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "User.h"
+#include "Variables.h"
 #include <fstream>
 #include <sstream>
 using namespace std;
@@ -38,10 +40,10 @@ void User::setPassword(string pass)
 	password = pass;
 }
 
-vector<User> User::readFile(const string& fileName)
+vector<User> User::readFile()
 {
 	vector<User> users;
-	ifstream file(fileName);
+	ifstream file(idPass);
 
 	if (!file.is_open()) {
 		return users;

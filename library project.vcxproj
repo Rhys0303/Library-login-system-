@@ -20,8 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="Variables.h" />
     <ClInclude Include="LoginFrame.h" />
     <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="RegisterFrame.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
@@ -29,7 +31,11 @@
     <ClCompile Include="LoginFrame.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="RegisterFrame.cpp" />
     <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UsersAndPassword.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

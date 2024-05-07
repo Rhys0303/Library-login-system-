@@ -25,7 +25,7 @@ public:
 	void setUserID(string);
 	void setPassword(string);
 
-	static vector<User> readFile(const string& fileName);
+	static vector<User> readFile();
 	static bool authenticate(const string& id, const string& pass, const vector<User>& users);
 };
 

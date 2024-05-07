@@ -27,6 +27,12 @@
     <ClInclude Include="LoginFrame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RegisterFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFrame.cpp">
@@ -44,5 +50,13 @@
     <ClCompile Include="LoginFrame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RegisterFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UsersAndPassword.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
