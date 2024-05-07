@@ -21,5 +21,5 @@ Contributing
 
 Contributions, questions, and suggestions are welcome! Please refer to the Contributing Guidelines for more information.
 
-License
-This project is licensed under the PCCU license 
+Registered
+This project is registered under the PCCU license 
