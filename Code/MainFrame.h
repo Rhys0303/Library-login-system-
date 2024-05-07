@@ -10,7 +10,5 @@ class MainFrame : public wxFrame
 public:
 	MainFrame(const wxString& title, LoginFrame* loginFrame);
 private:
-	wxListCtrl* bookList;
-	std::string ID;
 };
 
