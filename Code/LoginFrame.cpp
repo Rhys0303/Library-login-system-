@@ -21,7 +21,7 @@ LoginFrame::LoginFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title
 
 	wxButton* loginButton = new wxButton(panel, wxID_ANY, "Login", wxPoint(150,295));
 	wxButton* registerButton = new wxButton(panel, wxID_ANY, "Register", wxPoint(250,295));
-
+		//註冊按鈕
 	userID = new wxTextCtrl(panel, wxID_ANY, "", wxPoint(250,160), wxSize(150,-1), wxTE_PROCESS_ENTER);
 	password = new wxTextCtrl(panel, wxID_ANY, "",wxPoint(250,220), wxSize(150,-1), wxTE_PASSWORD | wxTE_PROCESS_ENTER);
 
