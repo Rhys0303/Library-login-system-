@@ -2,7 +2,7 @@ Library Login System
 Welcome to the GitHub repository for the Library Login System!
 
 Introduction
-This repository provides the source code and related documentation for the Library Login System.The system is an application for library users to login and manage their profiles,This program can record the login list, including name,account and password,when you sign up in first time.
+This repository provides the source code and related documentation for the Library Login System.The system is an application for library users to login and manage their profiles,This program can record the login list, including name,account and password,when you sign up for the first time.
 
 Features
 User Login: 1.Authenticate with username and password.
