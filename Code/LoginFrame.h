@@ -12,7 +12,7 @@ public:
 	void setID(const std::string&);
 	std::string getID();
 private:
-	void onLoginButtonClicked(wxCommandEvent& evt);
+	void onLoginButtonClicked(wxCommandEvent& evt); //點擊註冊按鈕
 	void onRegisterButtonClicked(wxCommandEvent& evt);
 
 	wxTextCtrl* userID;
