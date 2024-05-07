@@ -4,7 +4,6 @@
 #include <string>
 #include "LoginFrame.h"
 #include "User.h"
-#include "Book.h"
 
 class MainFrame : public wxFrame
 {
