@@ -15,7 +15,6 @@ Features:
 User Login:
             1.Authenticate with ID and password.
 
-            
             2.Enter your ID and password can create a new account.
             
 Save List: Save your name, ID and password when you sign up.
@@ -31,9 +30,11 @@ This project utilizes the wxWidgets library to create cross-platform graphical u
 
 
 
+
 Contributing:
 
 Contributions, questions, and suggestions are welcome! Please refer to the Contributing Guidelines for more information.
+
 
 
 
