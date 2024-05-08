@@ -1,10 +1,10 @@
-Library Login System
+Library Login System:
 Welcome to the GitHub repository for the Library Login System!
 
-Introduction
+Introduction:
 This repository provides the source code and related documentation for the Library Login System.The system is an application for library users to login and manage their profiles,This program can record the login list, including name, ID and password,when you sign up for the first time.
 
-Features
+Features:
 User Login: 1.Authenticate with ID and password.
             2.Enter your ID and password can create a new account.
             
@@ -19,9 +19,9 @@ This project utilizes the wxWidgets library to create cross-platform graphical u
 
 
 
-Contributing
+Contributing:
 
 Contributions, questions, and suggestions are welcome! Please refer to the Contributing Guidelines for more information.
 
-Registered
+Registered:
 This project is registered under the PCCU license 
