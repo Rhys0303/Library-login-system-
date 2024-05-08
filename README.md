@@ -3,9 +3,11 @@ Library Login System:
 Welcome to the GitHub repository for the Library Login System!
 
 
+
 Introduction:
 
 This repository provides the source code and related documentation for the Library Login System.The system is an application for library users to login and manage their profiles.This program can record the login list, including name, ID and password,when you sign up for the first time.
+
 
 
 Features:
@@ -17,6 +19,7 @@ User Login:
             2.Enter your ID and password can create a new account.
             
 Save List: Save your name, ID and password when you sign up.
+
 
 
 installation:
@@ -31,6 +34,7 @@ This project utilizes the wxWidgets library to create cross-platform graphical u
 Contributing:
 
 Contributions, questions, and suggestions are welcome! Please refer to the Contributing Guidelines for more information.
+
 
 
 Registered:
