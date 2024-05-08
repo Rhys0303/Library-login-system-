@@ -13,9 +13,9 @@ This repository provides the source code and related documentation for the Libra
 ### Features
 
 **User Login**:
-                * Authenticate with ID  and password.
+             Authenticate with ID  and password.
 
-                * Enter your ID and password can create a new account.
+             Enter your ID and password can create a new account.
             
 **Save List**: Save your name, ID and password when you sign up.
 
