@@ -13,6 +13,7 @@ Features:
 
 User Login:
             1.Authenticate with ID and password.
+            
             2.Enter your ID and password can create a new account.
             
 Save List: Save your name, ID and password when you sign up.
