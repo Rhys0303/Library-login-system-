@@ -60,7 +60,7 @@ void RegisterFrame::onRegisterButtonClicked(wxCommandEvent& evt)
 
 void RegisterFrame::writeFile(const std::string& firstName,const std::string& lastName,const std::string& userID,const std::string& password,const bool& admin)
 {
-	std::ofstream outFile(idPass, std::ios::app);
+	std::ofstream outFile("UsersAndPassword.txt", std::ios::app);
 	if (!outFile.is_open()) {
 		wxMessageBox("Failed to open file.", "Error", wxOK | wxICON_ERROR, this);
 	}
@@ -86,7 +86,7 @@ void RegisterFrame::OnClose(const wxCloseEvent& evt)
 
 bool RegisterFrame::checkDuplicate(std::string ID) {
 
-	std::ifstream inFile(idPass);
+	std::ifstream inFile("UsersAndPassword.txt");
 	if (!inFile.is_open()) {
 		wxMessageBox("Failed to open file", "Error", wxOK | wxICON_ERROR, this);
 		return false;
