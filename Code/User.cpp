@@ -43,7 +43,7 @@ void User::setPassword(string pass)
 vector<User> User::readFile()
 {
 	vector<User> users;
-	ifstream file(idPass);
+	ifstream file("UsersAndPassword.txt");
 
 	if (!file.is_open()) {
 		return users;
